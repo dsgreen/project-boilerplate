@@ -1,0 +1,34 @@
+// See http://bootswatch.com/ for good starting point.
+
+// Bootstrap navbar overrides
+.navbar {
+  border-radius: 0;
+}
+.navbar.navbar-default,
+.navbar.navbar-inverse {
+  .navbar-nav li {
+    // font adjustments
+  }
+  .navbar-nav li a {
+    // color adjustments
+    //color: $main-nav-color;
+    &:focus {
+      //outline:none;
+    }
+    &:hover,
+    &:focus {
+      // color adjustments
+      //color: $main-nav-hover;
+    }
+  }
+  .navbar-toggle {
+    border:none;
+  }
+  .navbar-collapse {
+    border-top: none;
+    box-shadow: none;
+  }
+}
+.navbar-brand {
+  // adjustments
+}
