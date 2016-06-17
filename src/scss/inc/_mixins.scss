@@ -1,0 +1,40 @@
+// mixins
+@mixin list-nostyle {
+  padding-left: 0;
+  list-style: none;
+}
+@mixin list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+  > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+@mixin clearfix {
+  &:before {
+    display: table;
+    content: " ";
+  }
+  &:after {
+    display: table;
+    content: " ";
+    clear: both;
+  }
+}
+@mixin alt($color) {
+  background-color: $color;
+  border-color: $color;
+  &:hover,
+  &:focus {
+    background-color: lighten($color, 5%);
+    border-color: lighten($color, 5%);
+  }
+}
+@mixin img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
