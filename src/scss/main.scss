@@ -13,8 +13,29 @@
 //@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700');
 //@import url('https://fonts.googleapis.com/css?family=Droid+Sans:400,700');
 
-// variables
+// various color names
+$magenta: #FF00FF;
+$lime: #00FF00;
+$lime-green: #32CD32;
+$forest-green: #228B22;
+$medium-blue: #0000CD;
+$navy: #000080;
+$super-light-gray: #EAEAEA;
+$light-gray: #D3D3D3;
+$silver: #C0C0C0;
+$old-school-gray: #666666;
+$super-dark-gray: #2E2E2E;
 
+// functional color names
+$link-color: $medium-blue;
+$copy-color: $super-dark-gray;
+$link-hover: lighten($link-color, 15%);
+//$inverse-btn-hover: ...;
+//$main-nav-color: $light-gray;
+//$main-nav-hover: lighten($light-gray, 20%);
+$accent: $magenta;
+
+// type
 $sans-default: "Helvetica Neue", Helvetica, Arial, sans-serif;
 //$serif-default: Georgia, serif;
 
@@ -23,3 +44,8 @@ $sans-custom: "Open Sans";
 
 $sans: $sans-custom, $sans-default;
 //$serif: $serif-custom, $serif-default;
+
+// import
+@import "inc/mixins";
+@import "inc/bootstrap-overrides";
+@import "inc/layout";
