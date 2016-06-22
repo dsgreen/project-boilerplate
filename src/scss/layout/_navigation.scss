@@ -1,0 +1,68 @@
+.main-navigation {
+  ul {
+    @include list-nostyle;
+    text-align: center;
+  }
+  li {
+    padding-top: 3em;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  a {
+    padding: .7em 1em;
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+  .cta {
+    @include alt($lime-green);
+  }
+}
+// nav toggle button and mobile only adjustments
+@media (max-width: 767px) {
+  .nav-toggle {
+    position: absolute;
+    top: 3.4em;
+    right: 1em;
+    display: block;
+    width: 5em;
+    text-align: center;
+  }
+  .nav-toggle-text {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .nav-toggle .fa-bars {
+    display: inline-block;
+  }
+  .main-navigation li {
+    &:first-of-type {
+      padding-top: 1em;
+    }
+  }
+  .main-navigation ul {
+    margin-bottom: 3em;
+  }
+}
+// tablet and up, header & nav styles
+@media screen and (min-width: 768px) {
+  .logo {
+    float: left;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .main-navigation {
+    float: right;
+    ul {
+      @include list-inline;
+    }
+    li {
+      padding-top: 3.5em;
+    }
+  }
+}

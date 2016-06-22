@@ -1,0 +1,29 @@
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: $accent;
+  text-shadow: none;
+}
+::selection {
+  background: $accent;
+  text-shadow: none;
+}
+
+// links, buttons
+a,
+a:link,
+a:active,
+a:visited {
+  color: $link-color;
+}
+a:hover,
+a:focus {
+  color: $link-hover;
+}
+a,
+.cta {
+  transition: all .2s ease;
+}

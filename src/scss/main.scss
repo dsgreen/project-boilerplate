@@ -6,6 +6,8 @@
 
 @import "config/fonts";
 @import "config/variables";
-@import "inc/mixins";
-@import "inc/bootstrap-overrides";
-@import "inc/layout";
+@import "config/mixins";
+@import "base/defaults";
+@import "layout/bootstrap-overrides";
+@import "layout/general";
+@import "layout/navigation";
