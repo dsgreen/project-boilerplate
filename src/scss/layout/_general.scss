@@ -3,7 +3,7 @@ body {
   font-family: $sans;
   background-color: $super-light-gray;
   // top padding for fixed header
-  padding-top: 100px;
+  padding-top: 140px;
 }
 .container-fluid {
   max-width: 1200px;
@@ -20,5 +20,5 @@ body {
   width: 100%;
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: $page-bg-color;
+  background-color: #fff;
 }
