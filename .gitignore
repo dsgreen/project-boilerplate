@@ -6,3 +6,14 @@ node_modules/
 # only *.min.* files get included for distribution
 /css/main.css
 /js/main.js
+
+# Server
+# ...
+
+# WordPress
+# ...
+
+# Exclude images and binaries
+images
+fonts
+# ...
