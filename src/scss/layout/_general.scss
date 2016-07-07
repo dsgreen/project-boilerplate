@@ -6,7 +6,7 @@ body {
   padding-top: 140px;
 }
 .container-fluid {
-  max-width: 1200px;
+  max-width: $max-container-width;
 }
 .logo {
   width: 75px;
