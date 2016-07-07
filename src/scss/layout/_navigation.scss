@@ -17,7 +17,7 @@
     }
   }
   .cta {
-    @include alt($lime-green);
+    @include cta-color-override(#fff, $dark-gray);
   }
 }
 // nav toggle button and mobile only adjustments
