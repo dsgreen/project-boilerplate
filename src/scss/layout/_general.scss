@@ -2,8 +2,6 @@
 body {
   font-family: $sans;
   background-color: $extra-light-gray;
-  // top padding for fixed header
-  padding-top: 140px;
 }
 .container-fluid {
   max-width: $max-container-width;
@@ -12,12 +10,7 @@ body {
   width: 75px;
   height: 110px;
 }
-// fixed header
 .site-header {
-  position: fixed;
-  z-index: 999;
-  top: 0;
-  width: 100%;
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: #fff;
