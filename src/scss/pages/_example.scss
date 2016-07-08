@@ -1,0 +1,19 @@
+// example page styles
+.example .hero {
+  @include hero-bg-img('../images/hero.jpg');
+  h1 {
+    font-weight: 700;
+    color: #fff;
+  }
+  p {
+    margin-bottom: 1em;
+    font-size: 18px;
+    color: #fff;
+  }
+  .cta {
+    @include cta-color-override(white, $accent);
+  }
+  .cta-inverse {
+    @include cta-inv-color-override(white, $accent);
+  }
+}
