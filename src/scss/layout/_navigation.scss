@@ -11,14 +11,19 @@
   }
   a {
     padding: .7em 1em;
+    color: $main-nav-color;
     &:hover,
     &:focus {
+      //color: $main-nav-hover;
       text-decoration: none;
     }
   }
-  .cta {
-    @include cta-color-override(#fff, $dark-gray);
-  }
+  //.cta {
+  //  @include cta-color-override(#fff, $dark-gray);
+  //}
+  //.cta-inverse {
+  //  @include cta-inv-color-override($dark-gray, $dark-gray);
+  //}
 }
 // nav toggle button and mobile only adjustments
 @media (max-width: 767px) {

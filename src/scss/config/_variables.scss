@@ -13,6 +13,7 @@ $dark-gray: #2E2E2E;
 $extra-dark-gray: #1E1E1E;
 
 // functional color names
+$accent: $lime-green;
 $link-color: $medium-blue;
 $link-hover: lighten($link-color, 15%);
 $copy-color: $dark-gray;
@@ -20,9 +21,9 @@ $page-bg-color: $extra-light-gray;
 $header-bg-color: $dark-gray;
 $footer-bg-color: $dark-gray;
 //$inverse-btn-hover: ...;
-//$main-nav-color: $light-gray;
-//$main-nav-hover: lighten($light-gray, 20%);
-$accent: $lime-green;
+$main-nav-color: $dark-gray;
+//$main-nav-hover: lighten($main-nav-color, 20%);
+//$main-nav-hover: $accent;
 $cta-txt-color: #FFF;
 $cta-bg-color: $dark-gray;
 $cta-inverse-txt-color: $dark-gray;
