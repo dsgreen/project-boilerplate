@@ -1,0 +1,27 @@
+// full width patterns
+.full-width {
+  width: 100%;
+  height: auto;
+}
+.fw-primary,
+.fw-alt {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: $fw-primary-bg;
+}
+.fw-alt {
+  background-color: $fw-alt-bg;
+}
+.fw-highlight {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  color: #fff;
+  background-color: $fw-highlight-bg;
+  h2 {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  p {
+    font-size: 18px;
+  }
+}
