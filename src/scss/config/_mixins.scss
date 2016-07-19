@@ -29,6 +29,20 @@
   max-width: 100%;
   height: auto;
 }
+@mixin link-color($link-color, $link-hover: null, $hover-bg-color: null, $underline: none) {
+  color: $link-color;
+  text-decoration: $underline;
+  &:link,
+  &:active,
+  &:visited {
+    color: $link-color;
+  }
+  &:hover,
+  &:focus {
+    color: $link-hover;
+    background-color: $hover-bg-color;
+  }
+}
 @mixin cta-color-override($txt-color, $bg-color) {
   color: $txt-color;
   background-color: $bg-color;
