@@ -1,7 +1,7 @@
 // layout general
 body {
   font-family: $sans;
-  background-color: $extra-light-gray;
+  background-color: $page-bg-color;
 }
 .container-fluid {
   max-width: $max-container-width;
@@ -13,13 +13,13 @@ body {
 .site-header {
   padding-top: 1em;
   padding-bottom: 1em;
-  background-color: #fff;
+  background-color: $header-bg-color;
 }
 .site-footer {
   padding-top: 1.6em;
   padding-bottom: 1em;
   color: $dark-gray;
-  background-color: #fff;
+  background-color: $footer-bg-color;
 }
 // use to manage the width inside a container
 .wrap-inner {
