@@ -10,6 +10,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="css/main.css" rel="stylesheet">
+  <script src="js/modernizr.custom.07230.js"></script>
   <!--[if lt IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -19,8 +20,9 @@
 </head>
 <body class="home">
 <div class="sr-only"><a href="#content">skip to page content</a></div>
+
 <header class="site-header" id="top" role="banner">
-  <nav role="navigation" class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -41,9 +43,10 @@
     </div>
   </nav>
 </header>
+
 <section class="container-fluid" id="content">
   <div class="row">
-    <main id="main" role="main" class="col-sm-9">
+    <main class="col-sm-9" id="main" role="main">
       <h1>Heading 1</h1>
       <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ligula lorem, consequat eget,
         tristique nec, auctor quis, purus. Vivamus ut sem. Fusce aliquam nunc vitae purus. Aenean viverra malesuada
@@ -68,6 +71,10 @@
         quam. Donec neque. Nunc venenatis enim nec quam. Cras faucibus, justo vel accumsan aliquam, tellus dui fringilla
         quam, in condimentum augue lorem non tellus. </p>
 
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+      <h2>Lists</h2>
       <h3>Unordered list</h3>
       <ul>
         <li>list item</li>
@@ -98,10 +105,20 @@
       </ul>
 
     </main>
-    <aside role="complementary" class="col-sm-3">
+
+    <aside class="col-sm-3" role="complementary">
+      <h4>Examples</h4>
+      <nav>
+        <ul>
+          <li><a href="example.html">Hero</a></li>
+          <li><a href="example.html">Full-width sections</a></li>
+        </ul>
+      </nav>
     </aside>
+
   </div>
 </section>
+
 <footer class="site-footer" role="contentinfo">
   <div class="container-fluid">
     <p class="small pull-left">&copy; Copyright 2015 <i>Company Name</i></p>
