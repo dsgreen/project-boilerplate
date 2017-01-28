@@ -29,7 +29,7 @@
   max-width: 100%;
   height: auto;
 }
-@mixin link-color($link-color, $link-hover: null, $hover-bg-color: null, $underline: none) {
+@mixin link-color($link-color, $link-hover: null, $hover-bg-color: null, $underline: none, $underline-on-hover: none) {
   color: $link-color;
   text-decoration: $underline;
   &:link,
@@ -41,6 +41,7 @@
   &:focus {
     color: $link-hover;
     background-color: $hover-bg-color;
+    text-decoration: $underline-on-hover;
   }
 }
 @mixin cta-color-override($txt-color, $bg-color) {
