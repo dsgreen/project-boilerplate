@@ -1,5 +1,5 @@
-// example page styles
-.example .hero {
+// home page styles
+.home .hero {
   @include hero-bg-img('../images/hero.jpg');
   h1 {
     font-weight: 700;
@@ -19,7 +19,7 @@
 }
 // mobile
 @media screen and (max-width: 500px) {
-  .example .hero {
+  .home .hero {
     padding-top: 3.5em;
     min-height: 350px;
   }

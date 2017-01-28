@@ -7,12 +7,16 @@
 @import "config/fonts";
 @import "config/variables";
 @import "config/mixins";
+
 @import "base/defaults";
+
 @import "layout/bootstrap-overrides";
 @import "layout/general";
 @import "layout/header-fixed";
 @import "layout/navigation";
+
 @import "components/buttons";
 @import "components/hero";
 @import "components/full-width";
-@import "pages/example";
+
+@import "pages/home";
