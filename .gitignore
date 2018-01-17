@@ -3,10 +3,12 @@ _dev/
 node_modules/
 *.map
 
-# ignore expanded files during development
-# only *.min.* files get included for distribution
+# ignore *.min.* files during development
+# included *.min.* files for distribution
 #/css/main.css
 #/js/main.js
+/css/main.min.css
+/js/main.min.js
 
 # Server
 # ...
