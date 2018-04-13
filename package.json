@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/dsgreen/project-boilerplate#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-uglify": "^1.0.1",
+    "grunt": "^1.0.2",
+    "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^1.2.0"
+    "grunt-sass": "^2.1.0"
   }
 }
