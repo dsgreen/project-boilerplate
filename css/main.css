@@ -4,21 +4,19 @@
 
 */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,700");
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate.
- * Customize the background color to match your design.
- */
-::-moz-selection {
-  background: #32cd32;
-  text-shadow: none;
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #2e2e2e;
+  background-color: #eaeaea;
 }
 
-::selection {
-  background: #32cd32;
-  text-shadow: none;
-}
-
+/* headings, other
+h1, h2, h3, h4, h5, h6,
+th,
+th a,
+legend {
+  color: $copy-color;
+}*/
 a,
 a:link,
 a:active,
@@ -37,35 +35,18 @@ a,
   transition: all .2s ease;
 }
 
-.navbar {
-  border-radius: 0;
-}
-
-.navbar.navbar-default .navbar-toggle,
-.navbar.navbar-inverse .navbar-toggle {
-  border: none;
-}
-
-.navbar.navbar-default .navbar-collapse,
-.navbar.navbar-inverse .navbar-collapse {
-  border-top: none;
-  box-shadow: none;
-}
-
-body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #eaeaea;
+/*
+ * Remove text-shadow in selection highlight: HTML5 Boilerplate
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+::selection {
+  background: #eaeaea;
+  text-shadow: none;
 }
 
 .container-fluid {
   max-width: 1200px;
-}
-
-.site-footer {
-  padding-top: 1.6em;
-  padding-bottom: 1em;
-  color: #2e2e2e;
-  background-color: #fff;
 }
 
 .wrap-inner {

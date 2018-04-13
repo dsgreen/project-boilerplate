@@ -17,12 +17,12 @@ $extra-dark-gray: #1e1e1e;
 // ...
 
 // functional color names
-$accent: $yellow;
+$accent: $lime-green;
 $link-color: $medium-blue;
 $link-hover: lighten($link-color, 15%);
 $copy-color: $dark-gray;
 $page-bg-color: $extra-light-gray;
-$header-bg-color: $extra-light-gray;
+$header-bg-color: #fff;
 $footer-bg-color: #fff;
 $main-nav-color: $dark-gray;
 $main-nav-hover: lighten($main-nav-color, 10%);

@@ -7,9 +7,11 @@
 @import "variables";
 //@import "vendor/normalize"; -- in Bootstrap (now reboot)
 @import "mixins/mixins";
+
 @import "base/defaults";
 //@import "base/type"; -- Bootstrap
 //@import "base/forms"; -- Bootstrap
+
 @import "components/containers";
 //@import "components/skiplink"; -- Bootstrap
 @import "components/header";
@@ -19,6 +21,7 @@
 @import "components/hero";
 @import "components/full-width";
 //@import 'components/grid'; -- Bootstrap
+
 //@import "...utility/other classes...";
 //@import "...theme styles...";
 
