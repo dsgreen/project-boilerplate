@@ -1,16 +1,15 @@
-/*
- * Remove text-shadow in selection highlight: h5bp.com/i
- * These selection declarations have to be separate.
- * Customize the background color to match your design.
- */
-::-moz-selection {
-  background: $accent;
-  text-shadow: none;
+body {
+  font-family: $sans;
+  color: $copy-color;
+  background-color: $page-bg-color;
 }
-::selection {
-  background: $accent;
-  text-shadow: none;
-}
+/* headings, other
+h1, h2, h3, h4, h5, h6,
+th,
+th a,
+legend {
+  color: $copy-color;
+}*/
 
 // links, buttons
 a,
@@ -27,4 +26,14 @@ a,
 .cta,
 .btn {
   transition: all .2s ease;
+}
+
+/*
+ * Remove text-shadow in selection highlight: HTML5 Boilerplate
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+::selection {
+  background: $extra-light-gray;
+  text-shadow: none;
 }
