@@ -92,9 +92,9 @@
 
       <h4>Inline list</h4>
       <ul class="list-inline">
-        <li>list item</li>
-        <li>list item</li>
-        <li>list item</li>
+        <li class="list-inline-item">list item</li>
+        <li class="list-inline-item">list item</li>
+        <li class="list-inline-item">list item</li>
       </ul>
 
       <h3>Ordered list</h3>
@@ -123,22 +123,6 @@
         </dd>
       </dl>
 
-      <h4>Inline description</h4>
-      <dl class="dl-horizontal">
-        <dt>Term</dt>
-        <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ligula lorem, consequat eget, tristique nec,
-          auctor quis, purus. Vivamus ut sem.
-        </dd>
-        <dt>Term</dt>
-        <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ligula lorem, consequat eget, tristique nec,
-          auctor quis, purus. Vivamus ut sem.
-        </dd>
-        <dt>Term</dt>
-        <dd>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ligula lorem, consequat eget, tristique nec,
-          auctor quis, purus. Vivamus ut sem.
-        </dd>
-      </dl>
-
       <h2>Basic text formatting</h2>
 
       <h3>Emphasis</h3>
@@ -152,12 +136,7 @@
       </address>
 
       <h3>Blockquote</h3>
-      <blockquote>
-        <p>&ldquo;Lorem ipsum dolor sit amet consectetuer adipiscing elit. Duis ligula lorem, consequat eget, tristique
-          nec.&rdquo;</p>
-        <small>John Smith</small>
-      </blockquote>
-      <blockquote class="pull-right">
+      <blockquote class="blockquote">
         <p>&ldquo;Lorem ipsum dolor sit amet consectetuer adipiscing elit. Duis ligula lorem, consequat eget, tristique
           nec.&rdquo;</p>
         <small>John Smith</small>
@@ -256,34 +235,32 @@
           </div>
 
           <p><b>Receive our newsletter?</b></p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="newsletter" value="yes" id="yes">
+          <div class="form-check">
+            <input type="radio" name="newsletter" value="yes" id="yes" class="form-check-input">
+            <label class="form-check-label" for="yes">
               Sign me up!
             </label>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="newsletter" value="no" id="no">
+          <div class="form-check">
+            <input type="radio" name="newsletter" value="no" id="no" class="form-check-input">
+            <label class="form-check-label" for="no">
               No thanks
             </label>
           </div>
 
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" name="terms" id="terms" value="agree">
+          <div class="form-check">
+            <input type="checkbox" name="terms" id="terms" value="agree" class="form-check-input">
+            <label class="form-check-label" for="terms">
               I agree to the <a href="#">terms and conditions</a>
             </label>
           </div>
 
         </fieldset>
-        <button type="submit" name="send" id="send" class="btn btn-default">Send</button>
+        <button type="submit" name="send" id="send" class="btn btn-primary mt-2 mb-2">Send</button>
       </form>
 
       <h2>Responsive image</h2>
-      <p>
-        <img src="https://placehold.it/800x400" class="img-fluid" alt="some image">
-      </p>
+      <img src="https://placehold.it/800x400" class="img-fluid mb-2" alt="some image">
 
       <h2>Buttons</h2>
       <p>Using class <code>.cta</code> (<em>call to action</em>) to avoid styling conflicts with Bootstrap
@@ -313,8 +290,8 @@
 
 <footer class="site-footer" role="contentinfo">
   <div class="container-fluid">
-    <p class="small pull-left">&copy; Copyright 2015 <i>Company Name</i></p>
-    <p class="small pull-right"><a href="#content"><i class="glyphicon glyphicon-triangle-top"></i> back to top</a></p>
+    <p class="small float-left">&copy; Copyright 2015 <i>Company Name</i></p>
+    <p class="small float-right"><a href="#top">back to top</a></p>
   </div>
 </footer>
 
