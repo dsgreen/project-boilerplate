@@ -88,6 +88,13 @@ body {
   width: 100%;
 }
 
+.site-footer {
+  padding-top: 1.6em;
+  padding-bottom: 1em;
+  color: #2e2e2e;
+  background-color: #fff;
+}
+
 .main-navigation ul {
   padding-left: 0;
   list-style: none;

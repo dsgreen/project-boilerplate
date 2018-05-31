@@ -2,8 +2,9 @@
  Main Navigation
  */
 
-// 1st page load
 jQuery(document).ready(function($) {
+
+  // 1st page load
   if (window.innerWidth < 768) {
     $('.main-navigation').hide();
   }
